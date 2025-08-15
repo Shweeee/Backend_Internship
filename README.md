@@ -2,14 +2,14 @@
 
 An interactive Streamlit dashboard built on public Vahan data to analyze registrations by vehicle category and manufacturer, with YoY and QoQ growth.
 
-## 🔧 Setup Instructions
+# Setup Instructions
 1) Clone & install
-```bash
-git clone <your-repo-url>
+
+git clone https://github.com/Shweeee/Backend_Internship
 cd vehicle-reg-dashboard
 pip install -r requirements.txt
 
-## Run the app
+##  Run the app
 
 streamlit run app.py
 
@@ -23,7 +23,7 @@ Year, Category Group, Vehicle Class (manufacturer or class), Subcategory, Regist
 
 Optional for QoQ: Month or Quarter (Q1/Q2/Q3/Q4)
 
-##Features
+## Features
 
 Filters: Date range, Category, Manufacturer/Vehicle Class
 
@@ -33,7 +33,7 @@ Charts: Yearly trends, Quarterly trends, Manufacturer breakdown
 
 Investor-friendly layout
 
-##Calculations
+## Calculations
 
 YoY% = (CurrentYear - PreviousYear) / PreviousYear * 100
 
