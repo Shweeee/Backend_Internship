@@ -4,11 +4,11 @@ An interactive Streamlit dashboard built on public Vahan data to analyze registr
 
 # Setup Instructions
 1) Clone & install
-
+```bash
 git clone https://github.com/Shweeee/Backend_Internship
 cd vehicle-reg-dashboard
 pip install -r requirements.txt
-
+```
 ##  Run the app
 
 streamlit run app.py
