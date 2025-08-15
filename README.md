@@ -8,11 +8,12 @@ An interactive Streamlit dashboard built on public Vahan data to analyze registr
 git clone <your-repo-url>
 cd vehicle-reg-dashboard
 pip install -r requirements.txt
-Run the app
+
+## Run the app
 
 streamlit run app.py
 
-Load data
+##Load data
 
 Click “Upload Vehicle Data” in the app and upload your Excel/CSV.
 
@@ -22,7 +23,7 @@ Year, Category Group, Vehicle Class (manufacturer or class), Subcategory, Regist
 
 Optional for QoQ: Month or Quarter (Q1/Q2/Q3/Q4)
 
-📊 Features
+##Features
 
 Filters: Date range, Category, Manufacturer/Vehicle Class
 
@@ -32,7 +33,7 @@ Charts: Yearly trends, Quarterly trends, Manufacturer breakdown
 
 Investor-friendly layout
 
-📐 Calculations
+##Calculations
 
 YoY% = (CurrentYear - PreviousYear) / PreviousYear * 100
 
@@ -40,7 +41,7 @@ QoQ% = (CurrentQuarter - PreviousQuarter) / PreviousQuarter * 100
 
 QoQ is shown only when quarter/month data is provided.
 
-🗂️ Data Assumptions
+## Data Assumptions
 
 “Vehicle Class” serves as manufacturer/class depending on Vahan export.
 
@@ -49,14 +50,14 @@ Missing/invalid numerics are coerced to 0 for aggregation.
 If quarter data is unavailable, QoQ will display N/A.
 
 
-📓 Data Collection 
+## Data Collection 
 
 Source: Vahan Dashboard public pages
 
 
 Cleaning: header fixes, type coercion, deduplication
 
-🧭 How to Use (in the video)
+## How to Use (in the video)
 
 Upload dataset → pick year & category → read KPIs
 
@@ -74,6 +75,6 @@ Manufacturer gaining/losing share QoQ
 
 Seasonality (festive quarter spikes)
 
-🎥 Video Walkthrough
+## Video Walkthrough
 
 Video link: https://drive.google.com/file/d/1HlLMNDXow2UFtGsSd_tXohViLjprHZkM/view?usp=sharing
